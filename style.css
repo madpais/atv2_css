@@ -4,31 +4,71 @@
     border: 0;
     list-style: 0;
     font-family: tahoma;
+
+}
+
+.a_cat {
+    background-image: url(Capas/fundo.jpg);
+    color: Maroon;
+    text-align: center;
+    margin-top: 5%;
+}
+
+
+.a_fic {
+    background-image: url(Capas/fundo.jpg);
+    color: Maroon;
     text-align: center;
 }
 
+.a_nfic {
+    background-image: url(Capas/fundo.jpg);
+    color: Maroon;
+    text-align: center;
+}
+
+.a_ul {
+    color: LightGray;
+    font-size: 10pt;
+    font-weight: bold;
+    line-height: 30px;  
+    text-align: left;
+}
+
+
 aside {
-    background-image: url();
-    background-position: cover;
-    margin: 0 0 0;
+    background-image: url(Capas/vinho.jpg);
+    background-size: cover;
     position: fixed;
     width: 30%;
+    height: 100%;
     margin: 0 0 0;
 }
 
-main{
+span {
+    text-decoration: underline;
+    color: gold;
+}
+
+.main{
     background-color: maroon;
     width: 70%;
+    height: 100%;
     position: absolute;
     margin: 0 0 0;
+    margin-left: 30%;
 }
 
-.cab {
-    color: whitesmoke;
+.m_h1 {
+    margin-top: 2%;
+    text-align: center;
+    color: WhiteSmoke;
     font-style: italic;
     border: 2px dotted mistyrose;
 }
 
-.cab_2 {
-    color: whitesmoke;
+.m_h3 {
+    color: WhiteSmoke;
+    text-align: center;
+    background-image: url(Capas/fundo_main.PNG);
 }
